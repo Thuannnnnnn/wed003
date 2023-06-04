@@ -1,0 +1,177 @@
+body{
+    background-image: linear-gradient(to right, #fffbd5, #b20a2c);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.left{
+    background: rgb(9,117,121);
+background: linear-gradient(90deg, rgba(9,117,121,0.8100490196078431) 55%, rgba(6,144,160,1) 68%, rgba(0,212,255,1) 100%);
+    width: 300px;
+    height: 700px;
+    border-top-left-radius : 15px;
+    border-bottom-left-radius: 15px;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 700px;
+    background-image: linear-gradient(to right, #fffbd5, #b20a2c);
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+    padding-top: 25px;
+    width: 200px;
+    
+}
+.pic{
+    
+   width: 100%;
+  
+   border-radius: 50%;
+} 
+.info{
+    padding-top: 40px;
+    
+}
+.mail{
+    display: flex;
+    justify-content: center;
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.phone{
+    
+    display: flex;
+    padding-left: 65px;
+    width: 100%;
+        padding-top: 10px;
+}
+.fb{
+    
+    display: flex;
+    padding-left: 65px;
+    width: 100%;
+    padding-top: 10px;
+}
+.title{
+    padding-left: 40px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    
+    font-weight: 700;
+}
+.project{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.right{
+    width: 600px;
+    height: 700px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: white
+    
+}
+.know{
+    padding-left: 40px;
+ }
+ .progress{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+ }
+ .progress2{
+    display: flex;
+    padding-right: 130px;
+ }
+
+ .progress-bar-HTML {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#48D1CC 90%,  #00FFFF 0);    
+  }
+  
+  .progress-bar-HTML::before {
+    content: " HTML";
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+  }
+  .progress-bar-CSS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#48D1CC 80%,  #00FFFF 0);    
+  }
+  
+  .progress-bar-CSS::before {
+    content: "CSS";
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+  }
+  .progress-bar-JAVASCRIPTS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#48D1CC 90%,  #00FFFF 0);    
+  }
+  
+  .progress-bar-JAVASCRIPTS::before {
+    content: "JAVASCRIPTS";
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+  }
+  .progress-bar-JAVA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#48D1CC 95%,  #00FFFF 0);    
+  }
+  
+  .progress-bar-JAVA::before {
+    content: "Java";
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+  }
+  
